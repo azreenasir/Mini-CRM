@@ -69,8 +69,8 @@ class EmployeeController extends Controller
      */
     public function show(Employee $employee)
     {
-        $employees = Employee::where('company_id', $employee->company_id)->latest()->limit(6)->get();
-        return view('posts.show', compact('employee', 'employees'));
+        $employees = Employee::where('company_id', $employee->company_id)->latest()->get();
+        return view('employees.show', compact('employee', 'employees'));
     }
 
     /**
