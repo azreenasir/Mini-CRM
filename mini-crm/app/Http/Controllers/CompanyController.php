@@ -55,7 +55,7 @@ class CompanyController extends Controller
     
 
 
-        /* return to posts page */
+        /* return to company page */
         return redirect()->to('company');
 
     }

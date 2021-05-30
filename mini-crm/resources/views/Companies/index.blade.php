@@ -23,7 +23,7 @@
                     </a>
                     <div class="card-body">
                         <h5>
-                            <a class="text-dark" href="#" class="card-title">
+                            <a class="text-dark" href="{{route('companies.show', $company->slug)}}" class="card-title">
                                 {{$company->name}}
 
                             </a>

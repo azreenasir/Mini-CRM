@@ -30,7 +30,7 @@
                             <a class="nav-link" href="{{route('companies.index')}}">Companies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Employees</a>
+                            <a class="nav-link" href="{{route('employees.index')}}">Employees</a>
                         </li>   
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
